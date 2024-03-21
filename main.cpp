@@ -34,7 +34,7 @@ int main() {
         for (uint8_t i = 0; i < mfrc.uid.size; i++) {
             snprintf(UID+ strlen(UID),3,"%02X",mfrc.uid.uidByte[i]);
         }
-        snprintf(buffer,MAXLENGTH,R"({"UID":"%s",,"SAK":%hhu,"timestamp":%ld})",UID, mfrc.uid.sak, time(nullptr));
+        snprintf(buffer,MAXLENGTH,R"({"UID":"%s","SAK":%hhu,"timestamp":%ld})",UID, mfrc.uid.sak, time(nullptr));
         std::string body(buffer);
 
         cpr::Post(

@@ -30,3 +30,17 @@
 *.exe
 *.out
 *.app
+
+# IDE files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+#submodule
+hash-library/
+RPi-RFID/
+toml11/
+
+# Config files
+config.toml

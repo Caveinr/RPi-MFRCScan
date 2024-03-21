@@ -1,0 +1,9 @@
+[submodule "RPi-RFID"]
+	path = RPi-RFID
+	url = https://github.com/villinte/RPi-RFID.git
+[submodule "toml11"]
+	path = toml11
+	url = https://github.com/ToruNiina/toml11.git
+[submodule "hash-library"]
+	path = hash-library
+	url = https://github.com/stbrumme/hash-library.git

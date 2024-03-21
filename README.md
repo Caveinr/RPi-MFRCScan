@@ -21,6 +21,7 @@ Before compiling , there`re some steps:
 git clone https://github.com/Caveinr/RPi-MFRCScan.git --recursive
 cd RPi-MFRCScan
 cmake .
+make
 ```
 ## Config
 ```toml
